@@ -1,0 +1,39 @@
+.question-card {
+  width: 100%;
+  background: transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.question-text {
+  text-align: center;
+  font-size: clamp(1.1rem, 2vw, 1.4rem);
+  color: #1e3a8a;
+  margin-bottom: 1.5rem;
+  line-height: 1.4;
+  font-weight: 600;
+}
+
+/* Buttons */
+.options {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 100%;
+}
+
+.option-btn {
+  background: #eff6ff;
+  border: 2px solid #3b82f6;
+  border-radius: 10px;
+  padding: 1rem;
+  font-size: 1rem;
+  color: #1e40af;
+  transition: 0.2s;
+}
+
+.option-btn:hover {
+  background: #3b82f6;
+  color: #fff;
+}

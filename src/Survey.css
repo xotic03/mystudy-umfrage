@@ -1,0 +1,70 @@
+.survey-container {
+  max-width: 600px;
+  margin: 4rem auto;
+  text-align: center;
+  background: #fff;
+  padding: 2rem;
+  border-radius: 20px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  font-family: "Poppins", sans-serif;
+}
+
+.survey-container h2 {
+  margin-bottom: 2rem;
+  color: #1e3a8a;
+}
+
+.survey-options {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.survey-options button {
+  background: #eff6ff;
+  border: 2px solid #3b82f6;
+  border-radius: 10px;
+  padding: 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.survey-options button:hover {
+  background: #3b82f6;
+  color: white;
+}
+
+.progress-text {
+  margin-top: 2rem;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.survey-done {
+  text-align: center;
+  margin-top: 5rem;
+}
+
+/* ---------- Zentrierung ---------- */
+.survey-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(var(--vh, 1vh) * 100); /* ✅ echtes Viewport-Maß */
+  background: #f6f8fa;
+  padding: 1rem;
+}
+
+/* ---------- Card ---------- */
+.survey-card {
+  width: 100%;
+  max-width: 480px;
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  padding: 2rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

@@ -1,0 +1,27 @@
+/* src/components/ProgressBar.css */
+.progress-wrapper {
+  width: 100%;
+  max-width: 600px;
+  margin: 1.5rem auto 2rem;
+  text-align: center;
+}
+
+.progress-track {
+  background: #e5e7eb;
+  border-radius: 10px;
+  height: 10px;
+  overflow: hidden;
+  margin-bottom: 0.5rem;
+}
+
+.progress-fill {
+  background: linear-gradient(90deg, #3b82f6, #2563eb);
+  height: 100%;
+  border-radius: 10px;
+  transition: width 0.4s ease;
+}
+
+.progress-wrapper p {
+  color: #555;
+  font-size: 0.85rem;
+}
